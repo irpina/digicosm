@@ -16,9 +16,9 @@ you hear is the inputs through DigiCosm. NO gives the audio and the screen
 back. The sequencer keeps running, so DigiCosm follows its tempo and PLAY,
 STOP and TEMPO still work.
 
-**DigiCosm 0.1 is a pre-release.** It was checked in digikit's emulator
-([digiemu](https://github.com/irpina/digiemu)) on OS 1.43 and 1.44, but has
-not run on a Digitone yet. Its source is also in elekloader
+**DigiCosm 0.1 is a pre-release.** It runs on a Digitone mk1, and was
+checked in digikit's emulator ([digiemu](https://github.com/irpina/digiemu))
+on OS 1.43 and 1.44. Its source is also in elekloader
 ([mods/digicosm-dn1](https://github.com/irpina/elekloader/tree/main/mods/digicosm-dn1)),
 with the core it needs.
 
@@ -204,8 +204,8 @@ It names no firmware address, so its 1.44 port is empty. It needs core-dn1
 
 ## Checked
 
-In digikit's emulator, OS 1.43 and 1.44, with core-dn1 3.2. Not run on a
-unit yet.
+It runs on a Digitone mk1, with core-dn1 3.2. In digikit's emulator, OS
+1.43 and 1.44, in detail:
 
 - **Owning the audio.** With the factory pattern playing, its FM is silent
   while DigiCosm is open and back at once after NO, also when PLAY was
