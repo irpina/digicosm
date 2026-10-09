@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+
+# Firmware, and anything built from it, never goes in this repository.
+*.syx
+*.syx.json
+*.map.json
+*.bin
+*.elemod
+out/
